@@ -1,0 +1,843 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*NAV Y FOOTER GENERAL*/
+
+main{
+    text-align: center;
+}
+
+.logonav{
+    position:relative;
+   
+}
+
+.navegacion{
+    background-color:rgba(255, 255, 255, 0.767);
+   text-align: center;
+    width:100%;
+   
+}
+
+ul li a{
+    font-family: Metropolis light;
+    color: #525252;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: smaller;
+}
+li{
+    display: inline-block;
+    padding: .5%;
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+.footertext{
+    color:#525252;
+    font-family: Metropolis light;
+    font-size: smaller;
+    text-align:center;   
+}
+
+.logofooter{
+    position:relative;
+    left: 28.3%;
+    size: 10%;
+}
+
+/*INDEX*/
+
+.indexbody{
+    background-image: 
+    url(https://img.freepik.com/free-photo/light-gray-concrete-wall_53876-89532.jpg?t=st=1647833830~exp=1647834430~hmac=9a5efc7f870036731c709bf0d30774ea9b7049b6d9d603c3c4248db839cd23f7&w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img_index{
+   max-width: 100%;
+   
+}
+
+.section_index{
+    margin:0 auto;
+    text-align: center;
+}
+
+.indexmain{
+    font-family: Metropolis b;
+    font-weight:bolder;
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+   padding:.5em;
+    color:#FFFFFF
+}
+
+.titlecontent{
+    font-family:  Metropolis b;
+    font-weight:bold;
+    text-align: center;
+    padding-top: 1%;
+   
+}
+
+.logocontent{
+    padding: 30px;
+    position: relative;
+   
+}
+
+.content{
+    color:#525252;
+    background-color: rgba(255, 255, 255,60);
+    position:relative;   
+    padding:2em 10vw 2em 10vw;
+    align-self: center;
+    background-position: center;
+}
+
+.textcontent{
+   font-family:  Metropolis regular;
+   line-height: 2.5; 
+  
+}
+
+.buttons{
+    font-family:Metropolis regular ;
+    text-align: center;
+    padding: 30px;
+    color: #525252;
+}
+
+.button1{
+    text-align: center;
+    padding: 5px;
+    color: #525252;
+    border-style: outset;
+    border-color: #ff5733;
+    border-width: 2px;
+}
+
+.button2{
+    text-align: center;
+    padding: 5px;
+    color: #525252;
+    border-style:ridge;
+    border-color: #ff5733;
+    border-width: 2px;
+}
+
+.footer{
+    background-color:rgba(255, 255, 255, 0.767);
+}
+
+
+
+/*PORTFOLIO*/
+
+.portfoliobody{
+    background-image: 
+    url(https://img.freepik.com/free-photo/light-gray-concrete-wall_53876-89532.jpg?t=st=1647833830~exp=1647834430~hmac=9a5efc7f870036731c709bf0d30774ea9b7049b6d9d603c3c4248db839cd23f7&w=1060);
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+
+.port_multimedia {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:repeat(4, 1fr);
+    grid-column-gap: 2%;
+    grid-row-gap: 2%;
+    justify-items: center;
+    text-align: center;
+    
+}
+
+.img1{
+    height: 400px;
+    width: 400px;
+    padding: 5%;
+}
+
+.titleimg1{
+    color: #ff5733;
+    font-weight:normal;
+    position: relative;
+    left: 6%;
+    font-size:120%;
+    font-family:Metropolis regular;
+    }
+
+.descripimg1{
+    color: #525252;
+    font-weight: lighter;
+    position:relative;
+    left: 6%;
+    font-size: 100%;
+    font-family:Metropolis light
+}
+
+.p1{
+    padding: 4%;
+}
+
+.img2{
+    height: 400px;
+    width: 400px;
+    padding: 5%;
+}
+
+.titleimg2{
+    color: #ff5733;
+    font-weight:normal;
+    position: relative;
+    left: 6%;
+    font-size:120%;
+    font-family:Metropolis regular;
+    }
+
+.descripimg2{
+    color: #525252;
+    font-weight: lighter;
+    position:relative;
+    left: 6%;
+    font-size: 100%;
+    font-family:Metropolis light
+}
+
+.p2{
+    padding: 4%;
+}
+
+.img3{
+    height: 400px;
+    width: 400px;
+    padding: 5%;
+}
+
+.titleimg3{
+    color: #ff5733;
+    font-weight:normal;
+    position: relative;
+    left: 6%;
+    font-size:120%;
+    font-family:Metropolis regular;
+    }
+
+.descripimg3{
+    color: #525252;
+    font-weight: lighter;
+    position:relative;
+    left: 6%;
+    font-size: 100%;
+    font-family:Metropolis light
+}
+
+.p3{
+    padding: 4%;
+}
+
+.img4{
+    height: 400px;
+    width: 400px;
+    padding: 5%;
+}
+
+.titleimg4{
+    color: #ff5733;
+    font-weight:normal;
+    position: relative;
+    left: 6%;
+    font-size:120%;
+    font-family:Metropolis regular;
+    }
+
+.descripimg4{
+    color: #525252;
+    font-weight: lighter;
+    position:relative;
+    left: 6%;
+    font-size: 100%;
+    font-family:Metropolis light
+}
+
+.p4{
+    padding: 4%;
+}
+
+.img5{
+    height: 400px;
+    width: 400px;
+    padding: 5%;
+}
+
+.titleimg5{
+    color: #ff5733;
+    font-weight:normal;
+    position: relative;
+    left: 6%;
+    font-size:120%;
+    font-family:Metropolis regular;
+    }
+
+.descripimg5{
+    color: #525252;
+    font-weight: lighter;
+    position:relative;
+    left: 6%;
+    font-size: 100%;
+    font-family:Metropolis light
+}
+
+.p5{
+    padding: 4%;
+}
+.img6{
+    height: 400px;
+    width: 400px;
+    padding: 5%;
+}
+
+.titleimg6{
+    color: #ff5733;
+    font-weight:normal;
+    position: relative;
+    left: 6%;
+    font-size:120%;
+    font-family:Metropolis regular;
+    }
+
+.p6{
+    padding: 4%;
+}
+
+.img7{
+    height: 400px;
+    width: 400px;
+    padding: 5%;
+}
+
+.titleimg7{
+    color: #ff5733;
+    font-weight:normal;
+    position: relative;
+    left: 6%;
+    font-size:120%;
+    font-family:Metropolis regular;
+    }
+
+.descripimg7{
+    color: #525252;
+    font-weight: lighter;
+    position:relative;
+    left: 6%;
+    font-size: 100%;
+    font-family:Metropolis light
+}
+
+.p7{
+    padding: 4%;
+}
+
+.img8{
+    height: 400px;
+    width: 400px;
+    padding: 5%;
+}
+
+.titleimg8{
+    color: #ff5733;
+    font-weight:normal;
+    position: relative;
+    left: 6%;
+    font-size:120%;
+    font-family:Metropolis regular;
+    }
+
+.descripimg8{
+    color: #525252;
+    font-weight: lighter;
+    position:relative;
+    left: 6%;
+    font-size: 100%;
+    font-family:Metropolis light
+}
+
+.p8{
+    padding: 4%;
+}
+
+.img9{
+    height: 400px;
+    width: 400px;
+    padding: 5%;
+}
+
+.titleimg9{
+    color: #ff5733;
+    font-weight:normal;
+    position: relative;
+    left: 6%;
+    font-size:120%;
+    font-family:Metropolis regular;
+    }
+
+.p9{
+    padding: 4%;
+}
+
+.img10{
+    height: 400px;
+    width: 400px;
+    padding: 5%;
+}
+
+.titleimg10{
+    color: #ff5733;
+    font-weight:normal;
+    position: relative;
+    left: 6%;
+    font-size:120%;
+    font-family:Metropolis regular;
+    }
+
+.descripimg10{
+    color: #525252;
+    font-weight: lighter;
+    position:relative;
+    left: 6%;
+    font-size: 100%;
+    font-family:Metropolis light
+}
+
+.p10{
+    padding: 4%;
+}
+
+.img11{
+    height: 400px;
+    width: 400px;
+    padding: 5%;
+}
+
+.titleimg11{
+    color: #ff5733;
+    font-weight:normal;
+    position: relative;
+    left: 6%;
+    font-size:120%;
+    font-family:Metropolis regular;
+    }
+
+.descripimg11{
+    color: #525252;
+    font-weight: lighter;
+    position:relative;
+    left: 6%;
+    font-size: 100%;
+    font-family:Metropolis light
+}
+
+.p11{
+    padding: 4%;
+}
+/*PROFESSIONAL*/
+
+.profbody{
+    padding-bottom: 30px;
+    background-image: 
+    url(https://img.freepik.com/free-photo/light-gray-concrete-wall_53876-89532.jpg?t=st=1647833830~exp=1647834430~hmac=9a5efc7f870036731c709bf0d30774ea9b7049b6d9d603c3c4248db839cd23f7&w=1060);
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+
+.titleprof{
+    color:#ff5733;
+    font-family: Metropolis light;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 150%;
+    padding: 3%;
+}
+.sectionprof{
+    background-image:
+    url("photography-ideas-creative-occupation-design-studio-concept.png");
+    background-size: cover;
+    background-repeat:repeat-y;
+    padding: 3%;
+}
+.mainprof{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(25, 1fr);
+    grid-column-gap: 8%;
+    grid-row-gap: 8%;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+    "titlep1 per1"
+    "titlep2 per2"
+    "titlep3 per3"
+    "titlep4 per4"
+    "titlep5 per5"
+    "titlep6 per6"
+    "titlep7 per7"
+    "titlep8 per8"
+    "titlep9 per9"
+    "titlep10 per10" ;
+    }
+
+   .mainprof{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 100%;
+    font-family:Metropolis b
+   }
+
+    /*EXPERIENCE*/
+
+.experiencebody{
+    background-image: 
+    url(https://img.freepik.com/free-photo/light-gray-concrete-wall_53876-89532.jpg?t=st=1647833830~exp=1647834430~hmac=9a5efc7f870036731c709bf0d30774ea9b7049b6d9d603c3c4248db839cd23f7&w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titlexper{
+    color:#ff5733;
+    font-family: Metropolis light;
+    font-weight: lighter;
+    text-align: center;
+    padding: 2%;
+}
+
+.mainexperi{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(10, 3fr);
+    grid-column-gap: 8%;
+    grid-row-gap: 8%;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas: 
+    "article1 ."
+    ". article2 "
+    "article3 ."
+    ". article4 "
+    "article5 ."
+    ". article6 "
+    "article7 .";
+}
+
+.year1{
+    color: #ff5733;
+    font-weight:bold;
+    font-family:Metropolis b;
+}
+
+.titlee1{
+    color: #525252;
+    font-weight: normal;
+    font-family:Metropolis regular;
+}
+
+.e1{
+    color: #000;
+    font-size: 90%;
+    font-weight: normal;
+    font-family:Metropolis regular;
+}
+
+.ee1{
+    color: #000;
+    font-size: 85%;
+    font-weight: lighter;
+    font-family:Metropolis light;
+}
+
+.year2{
+    color: #ff5733;
+    font-weight:bold;
+    font-family:Metropolis b;
+}
+
+.titlee2{
+    color: #525252;
+    font-weight: normal;
+    font-family:Metropolis regular;
+}
+
+.e2{
+    color: #000;
+    font-size: 90%;
+    font-weight: normal;
+    font-family:Metropolis regular;
+}
+
+.ee2{
+    color: #000;
+    font-size: 85%;
+    font-weight: lighter;
+    font-family:Metropolis light;
+}
+
+.year3{
+    color: #ff5733;
+    font-weight:bold;
+    font-family:Metropolis b;
+}
+
+.titlee3{
+    color: #525252;
+    font-weight: normal;
+    font-family:Metropolis regular;
+}
+
+.e3{
+    color: #000;
+    font-size: 90%;
+    font-weight: normal;
+    font-family:Metropolis regular;
+}
+
+.ee3{
+    color: #000;
+    font-size: 85%;
+    font-weight: lighter;
+    font-family:Metropolis light;
+}
+
+ .year4{
+    color: #ff5733;
+    font-weight:bold;
+    font-family:Metropolis b;
+    }
+    
+ .titlee4{
+    color: #525252;
+     font-weight: normal;
+    font-family:Metropolis regular;
+    }
+    
+.e4{
+     color: #000;
+    font-size: 90%;
+    font-weight: normal;
+    font-family:Metropolis regular;
+    }
+    
+.ee4{
+    color: #000;
+    font-size: 85%;
+    font-weight: lighter;
+    font-family:Metropolis light;
+    }
+    
+.year5{
+     color: #ff5733;
+    font-weight:bold;
+    font-family:Metropolis b;
+    }
+    
+.titlee5{
+    color: #525252;
+    font-weight: normal;
+    font-family:Metropolis regular;
+    }
+    
+.e5{
+     color: #000;
+     font-size: 90%;
+     font-weight: normal;
+     font-family:Metropolis regular;
+    }
+    
+.ee5{
+    color: #000;
+    font-size: 85%;
+    font-weight: lighter;
+    font-family:Metropolis light;
+    }
+    
+.year6{
+    color: #ff5733;
+    font-weight:bold;
+    font-family:Metropolis b;
+    }
+        
+.titlee6{
+    color: #525252;
+    font-weight: normal;
+    font-family:Metropolis regular;
+    }
+        
+.e6{
+    color: #000;
+    font-size: 90%;
+    font-weight: normal;
+    font-family:Metropolis regular;
+    }
+        
+.ee6{
+    color: #000;
+    font-size: 85%;
+    font-weight: lighter;
+    font-family:Metropolis light;
+    }
+        
+
+.year7{
+    color: #ff5733;
+    font-weight:bold;
+    font-family:Metropolis b;
+    }
+        
+.titlee7{
+    color: #525252;
+    font-weight: normal;
+    font-family:Metropolis regular;
+    }
+        
+.e7{
+    color: #000;
+    font-size: 90%;
+    font-weight: normal;
+    font-family:Metropolis regular;
+    }
+        
+.ee7{
+    color: #000;
+    font-size: 85%;
+    font-weight: lighter;
+    font-family:Metropolis light;
+    }
+        
+
+/*CONTACT*/
+
+.contactbody{
+    padding-bottom: 30px;
+    background-image: 
+    url(https://img.freepik.com/free-photo/light-gray-concrete-wall_53876-89532.jpg?t=st=1647833830~exp=1647834430~hmac=9a5efc7f870036731c709bf0d30774ea9b7049b6d9d603c3c4248db839cd23f7&w=1060);
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+
+.namebox{
+    position: relative;
+    left: 100px;
+}
+
+.mailbox{
+    position: relative;
+    left:200px ;
+}
+
+.subjectbox{
+    position: relative;
+    left: -240px;
+    top: 30px;
+}
+
+.messagebox{
+    position: relative;
+    top:200px;
+    left:-410px;
+}
+
+.buttonsend{
+    text-align: center;
+    padding: 5px;
+    color: #525252;
+    border-style: outset;
+    border-color: #ff5733;
+    border-width: 2px;
+    font-family:  Metropolis regular;
+}
+
+.buttonsend{
+    position: relative;
+    top: 200px;
+    left: -350px
+}
+
+.footercontact{
+    background-color:rgba(255, 255, 255, 0.767);
+    position: relative;
+    bottom: -500px;
+}
+
+.footertextcontact{
+    color:#525252;
+    font-family:Metropolis regular;
+    font-size: smaller;
+    text-align:center;   
+}
+
+.logofootercontact{
+    position:relative;
+    left: 17%;
+    top: 12px;
+}
+
+/*mediaqueries*/
+
+@media only screen and (max-width: 600px) {
+.port_multimedia {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:repeat(6, 1fr);
+    grid-column-gap: 1%;
+    grid-row-gap: 1%;
+    justify-items: center;
+    text-align: center;
+    
+}
+}
+
+
+@media only screen and (max-width: 380px) {
+.mainexperi {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows:repeat(12, 1fr);
+    grid-column-gap: .5%;
+    grid-row-gap: .5%;
+    justify-items: center;
+    text-align: center;
+    
+}
+    
+    .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11{
+        max-width: 80%;
+        min-width: 10%;
+        height:auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .mainexperi {
+        display: grid;
+        grid-template-columns: repeat(1fr 1fr);
+        grid-template-rows:repeat(5, 1fr);
+        grid-column-gap: 4%;
+        grid-row-gap: 4%;
+        justify-items: center;
+        text-align: center;
+        
+    }
+    }
+
+.article1 .article2 .article3 .article4 .article5 .article6 .article7{
+    max-width: 80%;
+    height:auto;
+}
+    
